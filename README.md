@@ -4,13 +4,13 @@
 
 ----
 
-**seeq-stictiondetection** is a Python module to detect oscillations and stiction patterns in control valves. It is based on the software provided by Seeq corporation and intended to be used within the Seeq framework. The oscillation detection is able to detect and isolate periods of time during which oscillations occurs. The stiction detection identifies if stiction is present within the oscillating time periods detected in the previous step. Both signals can be pushed back into the Seeq Workbench for further analysis (e.g. with the "Value Search" function in Seeq). The module includes a user interface (UI) designed to interact with the Seeq server.
+**seeq-stictionanalyser** is a Python module to detect oscillations and stiction patterns in control valves. It is based on the software provided by Seeq corporation and intended to be used within the Seeq framework. The oscillation detection is able to detect and isolate periods of time during which oscillations occurs. The stiction detection identifies if stiction is present within the oscillating time periods detected in the previous step. Both signals can be pushed back into the Seeq Workbench for further analysis (e.g. with the "Value Search" function in Seeq). The module includes a user interface (UI) designed to interact with the Seeq server.
 
 ----
 
 # User Guide
 
-[**seeq-stictiondetection User Guide**](https://github.com/HAW-Process-Automation/Stiction-Analyser/blob/main/DocumentationStictionAnalyser.md)
+[**seeq-stictionanalyser User Guide**](https://github.com/HAW-Process-Automation/Stiction-Analyser/blob/main/DocumentationStictionAnalyser.md)
 provides a more in-depth explanation of the algorithm behind the stiction analysis and how seeq-stictiondetection works. Examples of typical types
 of analyses using **seeq-stictiondetection** can be found in the User Guide.
 
@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-
 ----
 # Installation
 
-The backend of **seeq-stictiondetection** requires **Python 3.7** or later.
+The backend of **seeq-stictionanalyser** requires **Python 3.7** or later.
 
 ## Dependencies
 
@@ -35,7 +35,7 @@ matches your Seeq server. For more information on the `seeq` module see [seeq at
 
 ## User Installation Requirements (Seeq Data Lab)
 
-If you want to install **seeq-stictiondetection** as a Seeq Add-on Tool, you will need:
+If you want to install **seeq-stictionanalyser** as a Seeq Add-on Tool, you will need:
 
 - Seeq Data Lab (>= R50.5.0, >=R51.1.0, or >=R52.1.0)
 - `seeq` module whose version matches the Seeq server version
@@ -51,7 +51,7 @@ access the site.
 
 1. Create the .whl file or use the version that is uploaded in this repository
 2. Upload the .whl file in the Seeq Data Lab project
-3. Run pip install **name-of-file**.whl (**stictiondetection-0.0.1-py3-none-any.whl**)
+3. Run pip install **name-of-file**.whl (**stictionanalyser-0.0.1-py3-none-any.whl**)
 4. Run `python -m seeq.addons.stictiondetection [--users <users_list> --groups <groups_list>]` (give in login and password)
 
 https://user-images.githubusercontent.com/75427181/137938611-f25040d2-af6b-4a97-a371-1ac6531b1afd.mov
@@ -84,7 +84,7 @@ For development work, it is highly recommended creating a python virtual environ
 working environment. If you are not familiar with python virtual environments, you can take a
 look [here](https://docs.python.org/3.8/tutorial/venv.html)
 
-Once your virtual environment is activated, you can install **seeq-stictiondetection** from source with:
+Once your virtual environment is activated, you can install **seeq-stictionanalyser** from source with:
 
 ```shell
 python setup.py install
