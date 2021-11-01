@@ -29,7 +29,7 @@ The backend of **seeq-stictiondetection** requires **Python 3.7** or later.
 
 ## Dependencies
 
-See [`requirements.txt`](https://github.com/Timothy716/seeq-stictiondetection/tree/master/requirements.txt) file for a list of
+See [`requirements.txt`](/requirements.txt) file for a list of
 dependencies and versions. Additionally, you will need to install the `seeq` module with the appropriate version that
 matches your Seeq server. For more information on the `seeq` module see [seeq at pypi](https://pypi.org/project/seeq/)
 
@@ -92,11 +92,11 @@ python setup.py install
 
 ## Testing
 
-There are several types of testing available for **seeq-stictiondetection**
+There are several types of testing available for **seeq-stictionanalyser**
 
 ### Automatic Testing
 
-After installation, you can launch the test suite from the root directory of the project (i.e. `seeq-stictiondetection `
+After installation, you can launch the test suite from the root directory of the project (i.e. `seeq-stictionanalyser `
 directory). You will need to have pytest >= 5.0.1 installed
 
 To run all tests:
@@ -126,19 +126,9 @@ To test the UI, use the `developer_notebook.ipynb` in the `development` folder o
 used while debugging from your IDE. You can also create a whl first, install it on your virtual environment, and then
 run `developer_notebook.ipynb` notebook there.
 
-----
-
-# Changelog
-
-The change log can be found [**here**](https://seeq12.github.io/seeq-stictiondetection/changelog.html)
-
 
 ----
 
-# Support
-
-Code related issues (e.g. bugs, feature requests) can be created in the
-[issue tracker](https://github.com/seeq12/seeq-stictiondetection/issues)
 
 
 Maintainer: Timothy Essinger
@@ -151,9 +141,9 @@ Maintainer: Timothy Essinger
 Please cite this work as:
 
 ```shell
-seeq-stictiondetection v0.0.1
+seeq-stictionanalyser v0.0.1
 Seeq Corporation, 2021
-https://github.com/seeq12/seeq-stictiondetection
+https://github.com/HAW-Process-Automation/Stiction-Analyser
 ```
 
 
