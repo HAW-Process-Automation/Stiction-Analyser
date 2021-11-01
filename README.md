@@ -4,16 +4,15 @@
 
 ----
 
-**seeq-stictiondetection** is a Python module to detect oscillations and stiction patterns in control valves. The oscillation detection is able to detect and isolated the periods of time where the oscillation occurs. The stiction detector identifies if stiction is present within the further detected oscillating time periods. Both signals can be pushed back into the Seeq Workbench and further analysis (e.g. with the "Value Search" function). The module includes a user interface (UI) designed to interact with the Seeq server.
+**seeq-stictiondetection** is a Python module to detect oscillations and stiction patterns in control valves. It is based on the software provided by Seeq corporation and intended to be used within the Seeq framework. The oscillation detection is able to detect and isolate periods of time during which oscillations occurs. The stiction detection identifies if stiction is present within the oscillating time periods detected in the previous step. Both signals can be pushed back into the Seeq Workbench for further analysis (e.g. with the "Value Search" function in Seeq). The module includes a user interface (UI) designed to interact with the Seeq server.
 
 ----
 
 # User Guide
 
-[**seeq-stictiondetection User Guide**](https://seeq12.github.io/seeq-stictiondetection/user_guide.html)
+[**seeq-stictiondetection User Guide**](https://github.com/HAW-Process-Automation/Stiction-Analyser/blob/main/DocumentationStictionDetection.md)
 provides a more in-depth explanation of the algorithm behind the stiction analysis and how seeq-stictiondetection works. Examples of typical types
-of analyses using **seeq-stictiondetection** can be found in the
-section [Use Cases](https://seeq12.github.io/seeq-correlation/examples.html).
+of analyses using **seeq-stictiondetection** can be found in the User Guide.
 
 ----
 
@@ -21,15 +20,22 @@ section [Use Cases](https://seeq12.github.io/seeq-correlation/examples.html).
 
 [Documentation for **seeq-stictiondetection**](https://seeq12.github.io/seeq-stictiondetection/documentation.html).
 
------
+----
 
+# Demonstration
+
+A demonstation of an example can be seen below.
+
+https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov
+
+----
 # Installation
 
 The backend of **seeq-stictiondetection** requires **Python 3.7** or later.
 
 ## Dependencies
 
-See [`DocumentationStictionDetection.md`](https://github.com/Timothy716/seeq-stictiondetection/tree/master/TEST.md) file for a list of
+See [`requirements.txt`](https://github.com/Timothy716/seeq-stictiondetection/tree/master/requirements.txt) file for a list of
 dependencies and versions. Additionally, you will need to install the `seeq` module with the appropriate version that
 matches your Seeq server. For more information on the `seeq` module see [seeq at pypi](https://pypi.org/project/seeq/)
 
@@ -49,11 +55,16 @@ courtesy to the user, and it does not imply any obligation for support from the 
 [Seeq](mailto:applied.research@seeq.com?subject=[seeq-stictiondetection]%20General%20Question) if you required credentials to
 access the site.
 
-1. Create a **new** Seeq Data Lab project and open the **Terminal** window
-2. Run `pip install seeq-stictiondetection --extra-index-url https://pypi.seeq.com --trusted-host pypi.seeq.com`
-3. Run `python -m seeq.addons.stictiondetection [--users <users_list> --groups <groups_list>]`
+1. Create the .whl file or use the version that is uploaded in this repository
+2. Upload the .whl file in the Seeq Data Lab project
+3. Run pip install **name-of-file**.whl (**stictiondetection-0.0.1-py3-none-any.whl**)
+4. Run `python -m seeq.addons.stictiondetection [--users <users_list> --groups <groups_list>]` (give in login and password)
+
+https://user-images.githubusercontent.com/75427181/137938611-f25040d2-af6b-4a97-a371-1ac6531b1afd.mov
 
 ----
+
+
 
 # Development
 
@@ -62,7 +73,7 @@ contributing code, documentation, tests, etc.
 
 ## Important links
 
-* Official source code repo: https://github.com/seeq12/seeq-stictiondetection
+* Official source code repo: https://github.com/Timothy716/seeq-stictiondetection
 * Issue tracker: https://github.com/seeq12/seeq-stictiondetection/issues
 
 ## Source code
@@ -134,8 +145,7 @@ The change log can be found [**here**](https://seeq12.github.io/seeq-stictiondet
 
 Code related issues (e.g. bugs, feature requests) can be created in the
 [issue tracker](https://github.com/seeq12/seeq-stictiondetection/issues)
-Any other general comments or questions (non-code related) can be emailed to
-[Seeq](mailto:applied.research@seeq.com?subject=[seeq-correlation]%20General%20Question)
+
 
 Maintainer: Timothy Essinger
 
