@@ -145,9 +145,3 @@ seeq-stictionanalyser v0.0.1
 Seeq Corporation, 2021
 https://github.com/HAW-Process-Automation/Stiction-Analyser
 ```
-
-
-
-
-
-
