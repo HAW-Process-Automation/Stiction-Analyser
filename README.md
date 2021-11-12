@@ -1,6 +1,6 @@
 [![N|Solid](https://www.seeq.com/sites/default/files/seeq-logo-navbar-small.png)](https://www.seeq.com)
 
-[![N|Scheme](StictionDetectionExample.png)](https://www.seeq.com)
+[![N|Scheme](StictionAnylserExample.png)](https://www.seeq.com)
 
 ----
 
