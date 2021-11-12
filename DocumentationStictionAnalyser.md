@@ -12,7 +12,7 @@ This section explains the workflow and the algorithm of the seeq-stictiondetecti
 
 ## What is Valve Stiction and why should it be detected?
 
-Every plant in the process industry requires the ability to control important variables such as temperatures and flows during production to ensure a safe manufacturing process. Actuators are field instruments that act on the process. Valves are a type of an actuator that can increase or decrease the amount of liquids and gases, for example to cool a reactor or even the particle flow inside a pipe. Valves directly intervene in the process. With the nearly infinite possible use cases in the process industry valves are one of the most common control apparatus. A good operation of the valves is therefore of utmost importance. To ensure an unobstructed manufacturing process it is of importance to monitor the performance of the valves. One possible way is to investigate the data received from the process monitoring system and try to find characteristic patterns inside the data. Here, we first explain the basics of automation and control loops to undstand what data is available and how it can help monitor control valves. 
+Every plant in the process industry requires the ability to control important variables such as temperatures and flows during production to ensure a safe manufacturing process. Actuators are field instruments that act on the process. Valves are a type of an actuator that can increase or decrease the amount of liquids and gases, for example to cool a reactor. Valves directly intervene in the process. With the nearly infinite possible use cases in the process industry valves are one of the most common control apparatus. A good operation of the valves is therefore of utmost importance. To ensure an unobstructed manufacturing process it is of importance to monitor the performance of the valves. One possible way is to investigate the data received from the process monitoring system and try to find characteristic patterns inside the data. Here, we first explain the basics of automation and control loops to undstand what data is available and how it can help monitor control valves. 
 
 ## Control Theory
 
@@ -35,7 +35,7 @@ A shape detection algorithm is applied to ensure that the investigated images co
 ![N|Solid](/DocumentationImages/Sharp_cornered_ellipse_detail.png)
 ##### Figure 3: Sharp cornered ellipse compared to smooth cornered ellipse detail
 
-To find the minimum number of points the Ramer–Douglas–Peucker Algorithm is applied. By connecting those points with straight lines the shape will represent the original shape sufficiently. If the shape could be presented by three points it shows a triangle which means that it is a sharp cornered ellipse and therefore and clear evidence of stiction in the valve. The result of the analysis is then a signal which contains the amount of stiction in percent. In addition, the user could send the oscillating signal back to the Workbench. The oscillating signal equals one if an oscillation is present and zero if no oscillation is detected. The user could now apply a “Value Search” to find the time intervals where signal is oscillating or is above a certain amount of stiction. The magnitude of the stiction will be calculated by fitting an ellipse in the sharp cornered ellipse. Then the width of the fitted ellipse will be calculated which represents the amount of stiction in the control valve. 
+To find the minimum number of points the Ramer–Douglas–Peucker Algorithm is applied. By connecting those points with straight lines the shape will represent the original shape sufficiently. If the shape could be presented by three points it shows a triangle which means that it is a sharp cornered ellipse and therefore and clear evidence of stiction in the valve. The result of the analysis is then a signal which contains the apparent amount of stiction in percent. In addition, the user could send the oscillating signal back to the Workbench. The oscillating signal equals one if an oscillation is present and zero if no oscillation is detected. The user could now apply a “Value Search” to find the time intervals where signal is oscillating or is above a certain amount of stiction. The magnitude of the stiction will be calculated by fitting an ellipse in the sharp cornered ellipse. Then the width of the fitted ellipse will be calculated which represents the apparent amount of stiction in the control valve. 
 
 
 # How to Use
@@ -77,7 +77,7 @@ The first example containing information of stiction is taken from the SACAC Dat
 ![N|Solid](/DocumentationImages/Use_case_stiction_level.png)
 ##### Figure 7: Detailed time trend of the level signal
 
-The results of the can be seen in the following figure. In this figure is the Error signal (orange), the OP signal (purple), the stiction signal (blue) and the results of the oscillation finder (green). From the analysis can be seen that there the algorithm detected it as a stiction case with a magnitude of 2 %. 
+The results of the algorithm can be seen in the following figure. In this figure is the error signal (orange), the OP signal (purple), the stiction signal (blue) and the results of the oscillation finder (green). From the analysis can be seen that there the algorithm detected it as a stiction case with a magnitude of 2 %. 
 
 ![N|Solid](/DocumentationImages/Use_case_stiction_level_results.png)
 ##### Figure 8: Results of the stiction analysis 
@@ -89,7 +89,7 @@ The third use case is a flow loop suffering from stiction. A slice of the signal
 ![N|Solid](/DocumentationImages/Use_case_stiction_flow.png)
 ##### Figure 9: Detailed time trend of the flow signal
 
-The results generated by the Stiction Detection add-on can be reviewed in the following figure. The add-on can detect the oscillation and the signs of stiction in the signals. In this figure is the Error signal (purple), the OP signal (blue), the stiction signal (orange) and the results of the oscillation finder (green) The calculated magnitude of stiction is 5 %.
+The results generated by the Stiction Analyser add-on can be reviewed in the following figure. The add-on can detect the oscillation and the signs of stiction in the signals. In this figure is the error signal (purple), the OP signal (blue), the stiction signal (orange) and the results of the oscillation finder (green) The calculated apparent magnitude of stiction is 5 %.
 
 ![N|Solid](/DocumentationImages/Use_case_stiction_flow._results.png)
 ##### Figure 10: Results flow loop
