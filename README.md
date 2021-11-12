@@ -52,7 +52,7 @@ access the site.
 1. Create the .whl file or use the version that is uploaded in this repository
 2. Upload the .whl file in the Seeq Data Lab project
 3. Run pip install **name-of-file**.whl (**stictionanalyser-0.0.1-py3-none-any.whl**)
-4. Run `python -m seeq.addons.stictiondetection [--users <users_list> --groups <groups_list>]` (give in login and password)
+4. Run `python -m seeq.addons.stictionanalyser [--users <users_list> --groups <groups_list>]` (give in login and password)
 
 https://user-images.githubusercontent.com/75427181/137938611-f25040d2-af6b-4a97-a371-1ac6531b1afd.mov
 
