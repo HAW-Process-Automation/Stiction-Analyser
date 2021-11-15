@@ -4,7 +4,7 @@
 
 ----
 
-**seeq-stictionanalyser** is a Python module to detect oscillations and stiction patterns in control valves. It is based on the software provided by Seeq corporation and intended to be used within the Seeq framework. The oscillation detection is able to detect and isolate periods of time during which oscillations occurs. The stiction detection identifies if stiction is present within the oscillating time periods detected in the previous step. Both signals can be pushed back into the Seeq Workbench for further analysis (e.g. with the "Value Search" function in Seeq). The module includes a user interface (UI) designed to interact with the Seeq server.
+**seeq-stictionanalyser** is a Python module to detect oscillations and stiction patterns in control valves. It is intended to be used as an Add-on in Seeq Workbench. The oscillation detection component detects and isolates periods of time during which oscillations occur. The stiction detection componeny identifies if stiction is present during the oscillating time periods detected in the previous step. An oscillation index and a stiction index can be pushed back into the Seeq Workbench as time series signals for further analysis (e.g. with the "Value Search" function in Seeq). The module includes a user interface (UI) designed to interact with the Seeq server.
 
 ----
 
@@ -44,10 +44,8 @@ If you want to install **seeq-stictionanalyser** as a Seeq Add-on Tool, you will
 
 ## User Installation (Seeq Data Lab)
 
-The latest build of the project can be found [here](https://pypi.seeq.com/) as a wheel file. The file is published as a
-courtesy to the user, and it does not imply any obligation for support from the publisher. Contact
-[Seeq](mailto:applied.research@seeq.com?subject=[seeq-stictiondetection]%20General%20Question) if you required credentials to
-access the site.
+The latest build of the project can be found [here](https://pypi.org/) as a wheel file. The file is published as a
+courtesy to the user, and it does not imply any obligation for support from the publisher. 
 
 1. Create the .whl file or use the version that is uploaded in this repository
 2. Upload the .whl file in the Seeq Data Lab project
