@@ -44,7 +44,7 @@ If you want to install **seeq-stictionanalyser** as a Seeq Add-on Tool, you will
 
 ## User Installation (Seeq Data Lab)
 
-The latest build of the project can be found in [pypi.org](https://pypi.org/) as a wheel file. The file is published as a
+The latest build of the project can be found in [pypi.org](https://pypi.org/project/stictionanalyser/) as a wheel file. The file is published as a
 courtesy to the user, and it does not imply any obligation for support from the publisher. 
 
 1. Create a new Seeq Data Lab project and open the Terminal window
