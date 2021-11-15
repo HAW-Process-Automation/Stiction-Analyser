@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-
 ----
 # Installation
 
-The backend of **seeq-stictionanalyser** requires **Python 3.7** or later.
+**seeq-stictionanalyser** requires **Python 3.7** or later.
 
 ## Dependencies
 
@@ -44,7 +44,7 @@ If you want to install **seeq-stictionanalyser** as a Seeq Add-on Tool, you will
 
 ## User Installation (Seeq Data Lab)
 
-The latest build of the project can be found [here](https://pypi.org/) as a wheel file. The file is published as a
+The latest build of the project can be found in [pypi.org](https://pypi.org/) as a wheel file. The file is published as a
 courtesy to the user, and it does not imply any obligation for support from the publisher. 
 
 1. Create the .whl file or use the version that is uploaded in this repository
