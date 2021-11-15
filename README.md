@@ -51,7 +51,7 @@ courtesy to the user, and it does not imply any obligation for support from the 
 2. Run pip install stictionanalyser
 3. Run `python -m seeq.addons.stictionanalyser [--users <users_list> --groups <groups_list>]` 
 
-https://user-images.githubusercontent.com/75427181/137938611-f25040d2-af6b-4a97-a371-1ac6531b1afd.mov
+
 
 ----
 
