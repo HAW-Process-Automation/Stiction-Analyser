@@ -1,6 +1,6 @@
 ![](/DocumentationImages/HAW_Seeq.PNG)
 
-[![N|Scheme](StictionAnylserExample.png)](https://www.seeq.com)
+![](StictionAnylserExample.png)
 
 ----
 
