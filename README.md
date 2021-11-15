@@ -20,8 +20,6 @@ of analyses using **seeq-stictionanalyser** can be found in the User Guide.
 
 A demonstation of an example can be seen below.
 
-https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov
-
 [![Stiction_Analyzer Preview](StictionAnylserExample.png)](https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov "Stiction Analyzer Quick Preview")
 
 ----
