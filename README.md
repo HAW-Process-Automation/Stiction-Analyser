@@ -47,10 +47,9 @@ If you want to install **seeq-stictionanalyser** as a Seeq Add-on Tool, you will
 The latest build of the project can be found in [pypi.org](https://pypi.org/) as a wheel file. The file is published as a
 courtesy to the user, and it does not imply any obligation for support from the publisher. 
 
-1. Create the .whl file or use the version that is uploaded in this repository
-2. Upload the .whl file in the Seeq Data Lab project
-3. Run pip install **name-of-file**.whl (**stictionanalyser-0.0.1-py3-none-any.whl**)
-4. Run `python -m seeq.addons.stictionanalyser [--users <users_list> --groups <groups_list>]` (give in login and password)
+1. Create a new Seeq Data Lab project and open the Terminal window
+2. Run pip install stictionanalyser
+3. Run `python -m seeq.addons.stictionanalyser [--users <users_list> --groups <groups_list>]` 
 
 https://user-images.githubusercontent.com/75427181/137938611-f25040d2-af6b-4a97-a371-1ac6531b1afd.mov
 
@@ -102,19 +101,6 @@ To run all tests:
 ```shell
 pytest
 ```
-
-There are several pytest markers set up in the project. You can find the description of the marks in the `pytest.ini`
-file. You can use the `-m` flag to run only a subset of tests. For example, to run only the `backend` tests, you can
-use:
-
-```shell
-pytest -m backend
-```
-
-The integration tests requires a connection to a Seeq server. The tests are configured to try to access a local Seeq
-server with the data directory set up in `ProgramData/Seeq/data` of the local drive. However, you can set the
-`seeq_url`, `credentials_file` configuration options in the `test_config.ini` file to run the integration tests on a
-remote Seeq server, or change the local seeq data directory with `data_dir`.
 
 *Note:* Remember that the `seeq` module version in your local environment should match the Seeq server version
 
