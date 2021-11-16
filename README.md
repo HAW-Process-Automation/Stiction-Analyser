@@ -12,7 +12,7 @@
 
 A quick video demonstation of the Add-on is available below:
  
-<video src="https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov"
+<video src="https://user-images.githubusercontent.com/75427181/142021808-3ad2f926-4f69-4b02-84dc-4957382b2cac.mov"
   poster="/DocumentationImages/StictionAnalyzer_Poster.PNG"
   controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-width:700px;
    ) ">
