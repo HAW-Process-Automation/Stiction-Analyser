@@ -8,19 +8,19 @@
 
 ----
 
+# Quick Demo
+
+A quick video demonstation of the Add-on is available below:
+
+[![Stiction_Analyzer Preview](/DocumentationImages/StictionAnalyzer_Poster.PNG)](https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov "Stiction Analyzer Quick Preview")
+
+----
+
 # User Guide
 
 [**seeq-stictionanalyser User Guide**](https://haw-process-automation.github.io/Stiction-Analyser/user-guide)
 provides a more in-depth explanation of the algorithm behind the stiction analysis and how seeq-stictiondetection works. Examples of typical types
 of analyses using **seeq-stictionanalyser** can be found in the User Guide.
-
-----
-
-# Demonstration
-
-A quick video demonstation is available below:
-
-[![Stiction_Analyzer Preview](/DocumentationImages/StictionAnalyzer_Poster.PNG)](https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov "Stiction Analyzer Quick Preview")
 
 ----
 # Installation
