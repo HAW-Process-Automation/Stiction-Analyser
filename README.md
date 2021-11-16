@@ -4,8 +4,6 @@
 ![](StictionAnylserExample.png)
 
 ----
-[**View as GitHub Pages**](https://haw-process-automation.github.io/Stiction-Analyser/)
-----
 **seeq-stictionanalyser** is a Python module to detect oscillations and stiction patterns in control valves. It is intended to be used as an Add-on in Seeq Workbench. The oscillation analyzer, which is part of this Add-on, detects and isolates periods of time during which oscillations occur. The stiction analyzer identifies if stiction is present during the oscillating time periods identified by the oscillation analyzer. An oscillation index and/or a stiction index can be pushed back into the Seeq Workbench as time series signals for monitoring and additional analysis (e.g. with the "Value Search" function in Seeq). The module includes a user interface (UI) designed to interact with the Seeq server.
 
 ----
