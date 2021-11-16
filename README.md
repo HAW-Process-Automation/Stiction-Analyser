@@ -75,7 +75,7 @@ contributing code, documentation, tests, etc.
 You can get started by cloning the repository with the command:
 
 ```shell
-git clone git@github.com:seeq12/seeq-stictiondetection.git
+git clone git@github.com:HAW-Process-Automation/Stiction-Analyser.git
 ```
 
 ## Installation from source
