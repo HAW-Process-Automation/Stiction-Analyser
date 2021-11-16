@@ -1,6 +1,3 @@
-layout: page
-title: "User Guide"
-permalink: /user-guide/
 
 [![N|Solid](https://www.seeq.com/sites/default/files/seeq-logo-navbar-small.png)](https://www.seeq.com)
 
