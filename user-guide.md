@@ -3,7 +3,7 @@
 
 # User Guide
 
-![](StictionAnylserExample.png)
+![](StictionAnylser.png)
 
 ----
 
@@ -43,7 +43,7 @@ To find the minimum number of points the Ramer–Douglas–Peucker Algorithm is 
 
 The workflow can be divided into eight steps. In the following section those steps explained in more detail. The workflow in short is given below. A more detailed explanation can be found **here (Master Thesis Link)**. 
 
-![N|Solid](/DocumentationImages/StictionAnalyserUI.png)
+![N|Solid](/DocumentationImages/Stiction_Detection_UI_workflow.png)
 ##### Figure 4: Stiction Analyser UI
 
 ### Workflow
