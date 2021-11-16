@@ -10,7 +10,7 @@
 
 # User Guide
 
-[**seeq-stictionanalyser User Guide**](https://github.com/HAW-Process-Automation/Stiction-Analyser/blob/main/DocumentationStictionAnalyser.md)
+[**seeq-stictionanalyser User Guide**](https://haw-process-automation.github.io/Stiction-Analyser/user-guide)
 provides a more in-depth explanation of the algorithm behind the stiction analysis and how seeq-stictiondetection works. Examples of typical types
 of analyses using **seeq-stictionanalyser** can be found in the User Guide.
 
