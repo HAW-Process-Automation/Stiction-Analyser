@@ -1,9 +1,9 @@
 
-[![N|Solid](https://www.seeq.com/sites/default/files/seeq-logo-navbar-small.png)](https://www.seeq.com)
+![](/DocumentationImages/HAW_Seeq.PNG)
 
 # User Guide
 
-[![N|Scheme](StictionAnylserExample.png)](https://www.seeq.com)
+![](StictionAnylserExample.png)
 
 ----
 
