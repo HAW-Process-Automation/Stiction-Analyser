@@ -359,13 +359,13 @@ def seeq_add_on(sdl_notebook_url):
     btn_exit=v.Btn(class_='ml-12',color='#00695C',dark=True,children=['Cancel'])
     btn_exit.on_event('click', on_click_cancel)
         #Send to workbook stiction
-    button_to_seeq=v.Btn(class_='ma-10',color='#00695C',loading=False,dark=True,children=['Send Signal to Workbook'])
+    button_to_seeq=v.Btn(class_='ma-0',color='#00695C',loading=False,dark=True,children=['Send Signal to Workbook'])
     button_to_seeq.on_event('click',on_click_push)
         #Send to workbook oscillation
-    button_to_seeq_osci=v.Btn(class_='ma-10',color='#00695C',loading=False,dark=True,children=['Send Oscillation to Workbook'])
+    button_to_seeq_osci=v.Btn(class_='ma-0',color='#00695C',loading=False,dark=True,children=['Send Oscillation to Workbook'])
     button_to_seeq_osci.on_event('click',on_click_push)
         #clear table
-    button_clear_table=v.Btn(class_='ma-10',color='#00695C',loading=False,dark=True,children=['Clear Table'])
+    button_clear_table=v.Btn(class_='ma-0',color='#00695C',loading=False,dark=True,children=['Clear Table'])
     button_clear_table.on_event('click',on_click_clean_table)
         #job Button
     btn_add_scedule=v.Btn(color='#00695C',dark=True,loading=False,children=['Add to Job Manager'])
@@ -434,8 +434,8 @@ def seeq_add_on(sdl_notebook_url):
         head_line_results,container_3,
         v.Row(no_gutters=True,children=[
             v.Col(lg='12',children=[text_field_signal_name,checkbox_selected_stiction]),v.Col(lg='12',children=[text_field_signal_name_osci,checkbox_selected_oscillation])]),
-        v.Row(class_='ma-1',no_gutters=True,children=[button_to_seeq]),
-        v.Row(class_='ma-0',no_gutters=True,children=[button_clear_table])])
+        v.Row(class_='ma-6',no_gutters=True,children=[button_to_seeq]),
+        v.Row(class_='ma-6',no_gutters=True,children=[button_clear_table])])
 
     card_results=v.Card(class_='',color='grey lighten-3',height='100%',children=[container_results])
 
