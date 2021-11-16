@@ -24,7 +24,7 @@ A quick video demonstation of the Add-on is available below:
   poster="/DocumentationImages/StictionAnalyzer_Poster.PNG"
   controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-width:700px;
    ) ">
- </video>
+
 
 ----
 
