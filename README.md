@@ -34,7 +34,7 @@ of analyses using **seeq-stictionanalyser** can be found in the User Guide.
 
 See [`requirements.txt`](/requirements.txt) file for a list of
 dependencies and versions. Additionally, you will need to install the `seeq` module with the appropriate version that
-matches your Seeq server. For more information on the `seeq` module see [seeq at pypi](https://pypi.org/project/seeq/)
+matches your Seeq server. For more information on the `seeq` module see [seeq at pypi](https://pypi.org/project/stictionanalyser/)
 
 ## User Installation Requirements (Seeq Data Lab)
 
@@ -67,8 +67,8 @@ contributing code, documentation, tests, etc.
 
 ## Important links
 
-* Official source code repo: https://github.com/Timothy716/seeq-stictiondetection
-* Issue tracker: https://github.com/seeq12/seeq-stictiondetection/issues
+* Official source code repo: https://github.com/HAW-Process-Automation/Stiction-Analyser/
+* Issue tracker: https://github.com/HAW-Process-Automation/Stiction-Analyser/issues
 
 ## Source code
 
