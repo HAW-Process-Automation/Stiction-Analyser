@@ -14,6 +14,14 @@ A quick video demonstation of the Add-on is available below:
 
 [![Stiction_Analyzer Preview](/DocumentationImages/StictionAnalyzer_Poster.PNG)](https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov "Stiction Analyzer Quick Preview")
 
+<video src="https://user-images.githubusercontent.com/75427181/137947372-30305201-ec9d-49a9-a0bd-4f7eb6a4fed0.mov"
+  poster="/DocumentationImages/StictionAnalyzer_Poster.PNG"
+  controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-width:700px;
+  background:transparent) no-repeat 0 0;
+  -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;"
+  webboost_found_paused="true" webboost_processed="true">
+ </video>
+
 ----
 
 # User Guide
