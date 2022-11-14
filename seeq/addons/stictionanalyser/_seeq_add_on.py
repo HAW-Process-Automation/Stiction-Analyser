@@ -92,13 +92,13 @@ def seeq_add_on(sdl_notebook_url):
             return pd.DataFrame()
         search_signals_df = search_df[search_df['Type'].str.contains('Signal')]
         search_capsules_df = search_df[search_df['Type'].str.contains('Condition')]
-        df = spy.pull(search_signals_df, start=start, end=end, grid=grid, header='ID',shape='samples', quiet=True,status=spy.Status(quiet=True))
+        df = spy.pull(search_signals_df, start=start, end=end, grid=grid, header='ID',shape='samples', status=spy.Status(quiet=True))
         df_1=df.index[0]
         df_2=df.index[1]
         differnece=df_2-df_1
         sampling_rate = differnece.total_seconds()
         sampling_rate=sampling_rate/60
-        df_capsule = spy.pull(search_capsules_df, start=start, end=end, grid=str(sampling_rate)+'min',shape='samples',header='Name', quiet=True,status=spy.Status(quiet=True))
+        df_capsule = spy.pull(search_capsules_df, start=start, end=end, grid=str(sampling_rate)+'min',shape='samples',header='Name', status=spy.Status(quiet=True))
         if df.empty:
             df= pd.DataFrame()
         else:
