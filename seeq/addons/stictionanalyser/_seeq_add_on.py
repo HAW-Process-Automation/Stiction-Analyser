@@ -102,7 +102,7 @@ def seeq_add_on(sdl_notebook_url):
         if df.empty:
             df= pd.DataFrame()
         else:
-            df.columns = df.query_df['Name']
+            df.columns = search_signals_df['Name']
         if df_capsule.empty:
             df_capsule= pd.DataFrame()
         clear_output()
