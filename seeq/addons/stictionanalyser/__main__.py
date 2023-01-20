@@ -12,7 +12,8 @@ from ._utils import get_datalab_project_id, addon_tool_management
 NB_EXTENSIONS = ['widgetsnbextension', 'ipyvuetify', 'ipyvue']
 DEPLOYMENT_FOLDER = 'deployment'
 DEPLOYMENT_NOTEBOOK = "stiction_analyser_master.ipynb"
-
+DEFAULT_GROUP = ['Everyone']
+DEFAULT_USERS = []
 
 def install_app(sdl_url_, *, sort_key=None, permissions_group: list = None, permissions_users: list = None):
     """
@@ -40,9 +41,10 @@ def install_app(sdl_url_, *, sort_key=None, permissions_group: list = None, perm
     sdl_url_ = sanitize_sdl_url(sdl_url_)
 
     if sort_key is None:
-        sort_key = 'a'
+        sort_key = 's'
 
-    permissions_group, permissions_users = permissions_defaults(permissions_group, permissions_users)
+    permissions_group = permissions_group if permissions_group else DEFAULT_GROUP
+    permissions_users = permissions_users if permissions_users else DEFAULT_USERS
 
     stiction_details = dict(
         name='Stiction Analyser',
@@ -60,7 +62,9 @@ def install_app(sdl_url_, *, sort_key=None, permissions_group: list = None, perm
 
     copy(des_folder=DEPLOYMENT_FOLDER, src_folder='deployment_notebook',
          overwrite_folder=False, overwrite_contents=True)
-    addon_tool_management(stiction_details)
+    print(f'\nCopied the notebook used by the Add-on to {DEPLOYMENT_FOLDER}')
+
+    spy.addons.install(stiction_details, include_workbook_parameters=True, update_tool=True, update_permissions=True)
 
 
 def install_nbextensions():

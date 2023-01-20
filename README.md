@@ -51,7 +51,7 @@ The latest build of the project can be found in [pypi.org](https://pypi.org/proj
 courtesy to the user, and it does not imply any obligation for support from the publisher. 
 
 1. Create a new Seeq Data Lab project and open the Terminal window
-2. Run pip install stictionanalyser
+2. Run `pip install stictionanalyser`
 3. Run `python -m seeq.addons.stictionanalyser [--users <users_list> --groups <groups_list>]` 
 
 
