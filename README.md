@@ -128,7 +128,7 @@ Maintainer: Timothy Essinger
 Please cite this work as:
 
 ```shell
-seeq-stictionanalyser v0.0.2
+seeq-stictionanalyser v0.0.21
 HAW Process Automation
 https://github.com/HAW-Process-Automation/Stiction-Analyser
 ```
