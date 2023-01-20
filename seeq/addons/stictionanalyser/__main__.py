@@ -50,7 +50,7 @@ def install_app(sdl_url_, *, sort_key=None, permissions_group: list = None, perm
         "Name": 'Stiction Analyser',
         "Description": "Detect oscillations and stiction in the time series data",
         "Icon": "fa fa-th",
-        "Target URL": f'{sdl_url_}/apps/{DEPLOYMENT_FOLDER}/{CAUSALITY_NOTEBOOK}',
+        "Target URL": f'{sdl_url_}/apps/{DEPLOYMENT_FOLDER}/{DEPLOYMENT_NOTEBOOK}',
         "Link Type": "window",
         "Window Details": "toolbar=0,location=0,left=800,top=400,height=1000,width=1400",
         "Sort Key": sort_key,
