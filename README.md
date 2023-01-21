@@ -51,7 +51,7 @@ The latest build of the project can be found in [pypi.org](https://pypi.org/proj
 courtesy to the user, and it does not imply any obligation for support from the publisher. 
 
 1. Create a new Seeq Data Lab project and open the Terminal window
-2. Run pip install stictionanalyser
+2. Run `pip install stictionanalyser`
 3. Run `python -m seeq.addons.stictionanalyser [--users <users_list> --groups <groups_list>]` 
 
 
@@ -128,7 +128,7 @@ Maintainer: Timothy Essinger
 Please cite this work as:
 
 ```shell
-seeq-stictionanalyser v0.0.2
+seeq-stictionanalyser v0.0.21
 HAW Process Automation
 https://github.com/HAW-Process-Automation/Stiction-Analyser
 ```
